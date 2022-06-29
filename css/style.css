@@ -752,6 +752,10 @@ a {
     padding: 19px 0;
   }
 
+  .footer.white {
+    --footer-color: var(--gray);
+  }
+
   .footer__body {
     background-color: var(--white);
   }

@@ -400,7 +400,7 @@ a {
   width: 100vw;
   padding: 33px 0 10px;
   --color-burger: var(--white);
-  transition: background-color 0.3s;
+  transition: background-color 0.5s;
 }
 
 .header--fixed {
@@ -412,15 +412,12 @@ a {
   --link-color: var(--gray);
   --link-color-hover: var(--white);
   --color-burger: var(--gray);
+  background-color: var(--orange);
 }
 
 .header--open-menu .header__logo,
 .header--services .header__logo {
   filter: invert(85%) sepia(1%) saturate(386%) hue-rotate(327deg) brightness(95%) contrast(92%);
-}
-
-.header--services {
-  background-color: var(--orange);
 }
 
 .header__nav {

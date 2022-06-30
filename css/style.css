@@ -796,15 +796,11 @@ a {
   .footer__list-left {
     -moz-column-count: 2;
          column-count: 2;
-    margin-bottom: 40px;
+    margin-bottom: 45px;
   }
 
   .footer__list-right {
     margin-bottom: 34px;
-  }
-
-  .footer__item-left {
-    margin-bottom: 15px;
   }
 
   .footer__item-left:not(:last-child) {

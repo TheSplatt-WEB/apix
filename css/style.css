@@ -473,6 +473,11 @@ a {
   margin-bottom: 37px;
 }
 
+.footer__list-right {
+  max-width: 232px;
+  width: 100%;
+}
+
 .footer__item-right:not(:last-child),
 .footer__item-left:not(:last-child) {
   margin-bottom: 13px;
@@ -480,7 +485,6 @@ a {
 
 .footer__link {
   display: block;
-  max-width: 232px;
 }
 
 .footer__bottom {

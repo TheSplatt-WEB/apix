@@ -376,6 +376,11 @@ a {
   width: 100vw;
   padding: 33px 0 10px;
   --color-burger: var(--white);
+  transition: background-color 0.3s;
+}
+
+.header--fixed {
+  background-color: var(--gray);
 }
 
 .header--open-menu,

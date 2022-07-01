@@ -591,8 +591,8 @@ a {
   pointer-events: none;
   opacity: 0;
   transition: opacity 0.3s;
-  overflow-y: auto;
   overflow-x: hidden;
+  overflow-y: auto;
   padding-bottom: 30px;
 }
 
@@ -861,6 +861,11 @@ a {
   background-color: #ccc;
   flex: 0 0 50%;
   transform: translate(-100%, 0);
+  filter: grayscale(1);
+  -ms-filter: grayscale(1);
+  -webkit-filter: grayscale(1);
+  -moz-filter: grayscale(1);
+  -o-filter: grayscale(1);
 }
 
 @media (max-width: 1920px) {
@@ -1398,5 +1403,19 @@ a {
   .contacts__title {
     margin-bottom: 30px;
     font-size: 48px;
+  }
+}
+
+@media (any-hover: none) {
+  .services__body {
+    max-width: none;
+  }
+
+  .services__link--active {
+    color: var(--link-color);
+  }
+
+  .services-info {
+    display: none;
   }
 }

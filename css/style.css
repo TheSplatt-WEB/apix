@@ -858,7 +858,6 @@ a {
 }
 
 .contacts__map-box {
-  background-color: #ccc;
   flex: 0 0 50%;
   transform: translate(-100%, 0);
   filter: grayscale(1);

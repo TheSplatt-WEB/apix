@@ -878,7 +878,7 @@ a {
 
 .about-hero {
   padding-top: 159px;
-  margin-bottom: 200px;
+  margin-bottom: 225px;
 }
 
 .about-hero__container {
@@ -890,10 +890,11 @@ a {
   max-width: 848px;
   width: 100%;
   margin-right: 95px;
+  padding-top: 32px;
 }
 
 .about-hero__title {
-  margin-bottom: 25px;
+  margin-bottom: 30px;
 }
 
 .about-hero__descr {
@@ -922,11 +923,11 @@ a {
   margin-bottom: 200px;
 }
 
-.projacts__top {
+.projacts__container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 42px;
+  margin-bottom: 55px;
 }
 
 .projacts__body {
@@ -1153,19 +1154,23 @@ a {
   }
 
   .about-hero {
-    padding-top: calc(53px + 106 * ((100vw - 320px) / 1600));
+    padding-top: calc(46px + 113 * ((100vw - 320px) / 1600));
   }
 
   .about-hero {
-    margin-bottom: calc(111px + 89 * ((100vw - 320px) / 1600));
+    margin-bottom: calc(105px + 120 * ((100vw - 320px) / 1600));
   }
 
   .about-hero__info {
     margin-right: calc(53px + 42 * ((100vw - 320px) / 1600));
   }
 
+  .about-hero__info {
+    padding-top: calc(0px + 32 * ((100vw - 320px) / 1600));
+  }
+
   .about-hero__title {
-    margin-bottom: calc(15px + 10 * ((100vw - 320px) / 1600));
+    margin-bottom: calc(15px + 15 * ((100vw - 320px) / 1600));
   }
 
   .about-hero__descr {
@@ -1188,12 +1193,12 @@ a {
     margin-bottom: calc(100px + 100 * ((100vw - 320px) / 1600));
   }
 
-  .projacts__top {
-    margin-bottom: calc(30px + 12 * ((100vw - 320px) / 1600));
+  .projacts__container {
+    margin-bottom: calc(30px + 25 * ((100vw - 320px) / 1600));
   }
 
   .projacts__body {
-    height: calc(360px + 594 * ((100vw - 320px) / 1600));
+    height: calc(338px + 616 * ((100vw - 320px) / 1600));
   }
 
   .projacts__content {
@@ -1201,7 +1206,7 @@ a {
   }
 
   .projacts__list {
-    height: calc(140px + 240 * ((100vw - 320px) / 1600));
+    height: calc(120px + 260 * ((100vw - 320px) / 1600));
   }
 }
 
@@ -1379,12 +1384,24 @@ a {
   }
 
   .about-hero__image-box {
-    margin-bottom: 68px;
+    margin-bottom: 62px;
   }
 
   .about-hero__img {
     width: 100%;
     padding-left: 80px;
+  }
+
+  .projacts__content {
+    transform: rotate(-14deg) translate(-10%, -10%) scale(1.2);
+  }
+
+  .projacts__item:not(:last-child) {
+    padding-right: 6px;
+  }
+
+  .marquee3k:not(:last-child) {
+    margin-bottom: 2px;
   }
 }
 

@@ -1483,6 +1483,165 @@ a {
   min-height: 100px;
 }
 
+.inner-service__top {
+  background-color: var(--orange);
+  padding-top: 10px;
+  padding-bottom: 25px;
+  margin-bottom: 75px;
+}
+
+.inner-service__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.inner-service__title {
+  color: var(--gray);
+  font-size: 36px;
+  margin-right: 15px;
+}
+
+.inner-service__icon {
+  height: 70px;
+}
+
+.inner-service__body {
+  max-width: 1139px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.inner-service__body:not(:last-child) {
+  margin-bottom: 150px;
+}
+
+.inner-service__body p {
+  max-width: 850px;
+  font-size: 24px;
+}
+
+.inner-service__body p:not(:last-child) {
+  margin-bottom: 62px;
+}
+
+.inner-service__body p a {
+  text-decoration: underline;
+}
+
+.inner-service__body h1,
+.inner-service__body h2,
+.inner-service__body h3,
+.inner-service__body h4,
+.inner-service__body h5,
+.inner-service__body h6 {
+  font-size: 64px;
+  text-transform: uppercase;
+}
+
+.inner-service__body h1:not(:last-child),
+.inner-service__body h2:not(:last-child),
+.inner-service__body h3:not(:last-child),
+.inner-service__body h4:not(:last-child),
+.inner-service__body h5:not(:last-child),
+.inner-service__body h6:not(:last-child) {
+  margin-bottom: 40px;
+}
+
+.inner-service__body ul:not([class]):not(:last-child) {
+  margin-bottom: 50px;
+}
+
+.inner-service__body ul:not([class]) li {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+}
+
+.inner-service__body ul:not([class]) li:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+.inner-service__body ul:not([class]) li::before {
+  content: "";
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 12px 0 0 23px;
+  border-color: transparent transparent transparent var(--white);
+  margin-right: 28px;
+}
+
+.inner-service__body > a {
+  display: flex;
+  align-items: center;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  text-decoration: underline;
+}
+
+.inner-service__body > a:not(:last-child) {
+  margin-bottom: 11px;
+}
+
+.inner-service__body > a::before {
+  content: "";
+  height: 19px;
+  width: 40px;
+  margin-right: 13px;
+  -webkit-mask: url("../images/sprite.svg#icon-link") center/cover no-repeat;
+          mask: url("../images/sprite.svg#icon-link") center/cover no-repeat;
+  background-color: var(--link-color);
+  transition: background-color 0.3s;
+}
+
+.inner-service__inner {
+  display: flex;
+}
+
+.inner-service__inner:not(:last-child) {
+  margin-bottom: 75px;
+}
+
+.inner-service__item {
+  width: calc(50% - 10px);
+}
+
+.inner-service__item:not(:last-child) {
+  margin-right: 20px;
+}
+
+.inner-service__image-box,
+.inner-service__image-box-full {
+  width: 100%;
+  position: relative;
+  padding-bottom: 74.45%;
+}
+
+.inner-service__image-box img,
+.inner-service__image-box-full img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.inner-service__image-box-full:not(:last-child) {
+  margin-bottom: 150px;
+}
+
+.inner-service .project-carousel__body {
+  margin-bottom: 172px;
+}
+
+.inner-service .project-carousel__image-box {
+  margin-bottom: 0;
+}
+
 @media (max-width: 1920px) {
   body {
     font-size: calc(18px + 8 * ((100vw - 320px) / 1600));
@@ -1832,6 +1991,76 @@ a {
   .awards__text {
     min-height: calc(62px + 38 * ((100vw - 320px) / 1600));
   }
+
+  .inner-service__top {
+    padding-top: calc(23px + -13 * ((100vw - 320px) / 1600));
+  }
+
+  .inner-service__top {
+    padding-bottom: calc(30px + -5 * ((100vw - 320px) / 1600));
+  }
+
+  .inner-service__top {
+    margin-bottom: calc(37px + 38 * ((100vw - 320px) / 1600));
+  }
+
+  .inner-service__icon {
+    height: calc(82px + -12 * ((100vw - 320px) / 1600));
+  }
+
+  .inner-service__body:not(:last-child) {
+    margin-bottom: calc(97px + 53 * ((100vw - 320px) / 1600));
+  }
+
+  .inner-service__body p {
+    font-size: calc(18px + 6 * ((100vw - 320px) / 1600));
+  }
+
+  .inner-service__body p:not(:last-child) {
+    margin-bottom: calc(35px + 27 * ((100vw - 320px) / 1600));
+  }
+
+  .inner-service__body h1,
+  .inner-service__body h2,
+  .inner-service__body h3,
+  .inner-service__body h4,
+  .inner-service__body h5,
+  .inner-service__body h6 {
+    font-size: calc(32px + 32 * ((100vw - 320px) / 1600));
+  }
+
+  .inner-service__body h1:not(:last-child),
+  .inner-service__body h2:not(:last-child),
+  .inner-service__body h3:not(:last-child),
+  .inner-service__body h4:not(:last-child),
+  .inner-service__body h5:not(:last-child),
+  .inner-service__body h6:not(:last-child) {
+    margin-bottom: calc(25px + 15 * ((100vw - 320px) / 1600));
+  }
+
+  .inner-service__body ul:not([class]):not(:last-child) {
+    margin-bottom: calc(47px + 3 * ((100vw - 320px) / 1600));
+  }
+
+  .inner-service__body ul:not([class]) li {
+    font-size: calc(18px + 6 * ((100vw - 320px) / 1600));
+  }
+
+  .inner-service__body > a:not(:last-child) {
+    margin-bottom: calc(18px + -7 * ((100vw - 320px) / 1600));
+  }
+
+  .inner-service__inner:not(:last-child) {
+    margin-bottom: calc(25px + 50 * ((100vw - 320px) / 1600));
+  }
+
+  .inner-service__image-box-full:not(:last-child) {
+    margin-bottom: calc(100px + 50 * ((100vw - 320px) / 1600));
+  }
+
+  .inner-service .project-carousel__body {
+    margin-bottom: calc(95px + 77 * ((100vw - 320px) / 1600));
+  }
 }
 
 @media (max-width: 1300px) {
@@ -2107,6 +2336,14 @@ a {
   .awards__slider {
     margin-right: -20px;
   }
+
+  .inner-service__item {
+    width: calc(50% - 16px);
+  }
+
+  .inner-service__item:not(:last-child) {
+    margin-right: 8px;
+  }
 }
 
 @media (max-width: 767.98px) and (max-width: 1920px) {
@@ -2228,6 +2465,18 @@ a {
     margin-right: 0;
     margin-bottom: 20px;
   }
+
+  .inner-service__wrapper {
+    flex-direction: row-reverse;
+  }
+
+  .inner-service__title {
+    margin-right: 0;
+  }
+
+  .inner-service__icon {
+    margin-right: 28px;
+  }
 }
 
 @media (max-width: 575.98px) and (max-width: 1920px) {
@@ -2297,6 +2546,10 @@ a {
 
   .marquee3k:hover {
     z-index: 1;
+  }
+
+  .inner-service__body > a:hover::before {
+    background-color: var(--link-color-hover);
   }
 }
 

@@ -12,7 +12,7 @@
 
 <body>
 	<div class="viewport">
-		<header class="header  ">
+		<header class="header  header--services">
 	<div class="header__container container">
 		<nav class="header__nav">
 			<a class="header__logo logo" href="#">
@@ -64,76 +64,121 @@
 			<main class="main">
 				<span class="plug"></span>
 
-				<section class="services-page">
-	<div class="services-page__container container">
-		<h1 class="services-page__title title-page">УСЛУГИ</h1>
+				<section class="inner-service">
+	<div class="inner-service__top">
+		<div class="inner-service__container container">
+			<div class="inner-service__wrapper">
+				<h1 class="inner-service__title">Авторский надзор</h1>
 
-		<ul class="services-page__list">
-			<li class="services-page__item">
-				<a class="services-page__link" href="#">
-					<img class="services-page__img" src="images/services/1.svg" alt="">
+				<img class="inner-service__icon" src="images/services/1-dark.svg" alt="">
+			</div>
+		</div>
+	</div>
 
-					<p class="services-page__text">Авторский надзор</p>
-				</a>
+	<div class="inner-service__container container">
+		<div class="inner-service__body section-trigger">
+			<p>ООО «АПИКС» проводит контроль за соблюдением в процессе строительства требований проектной документации, технических характеристик и художественных замыслов проекта.</p>
+
+			<ul class="inner-service__inner section-trigger">
+				<li class="inner-service__item">
+					<div class="inner-service__image-box">
+						<picture class="">
+							<source type="image/webp" srcset="images/projects/1.webp">
+							<img src="images/projects/1.jpg" alt="">
+						</picture>
+					</div>
+				</li>
+
+				<li class="inner-service__item">
+					<div class="inner-service__image-box">
+						<picture class="">
+							<source type="image/webp" srcset="images/projects/2.webp">
+							<img src="images/projects/2.jpg" alt="">
+						</picture>
+					</div>
+				</li>
+			</ul>
+
+			<div class="inner-service__image-box-full section-trigger">
+				<picture class="">
+					<source type="image/webp" srcset="images/projects/3.webp">
+					<img src="images/projects/3.jpg" alt="">
+				</picture>
+			</div>
+
+			<h2>Заголовок</h2>
+
+			<p>ООО «АПИКС» проводит контроль за соблюдением в процессе строительства требований проектной документации, технических характеристик и художественных замыслов <a href="#">проекта.</a></p>
+
+			<ul>
+				<li>Пункт 1</li>
+				<li>Пункт 2</li>
+				<li>Пункт 3</li>
+			</ul>
+
+			<a href="#" download="">cкачать файл</a>
+			<a href="#" download="">cкачать файл</a>
+
+		</div>
+
+		<div class="project-carousel__body section-trigger">
+	<button class="project-carousel__btn project-carousel__btn--prev btn btn--left" type="button">
+		<span class="sr-only">Предыдущий слайд</span>
+	</button>
+
+	<div class="project-carousel__slider swiper swiper-container">
+		<ul class="project-carousel__wrapper swiper-wrapper">
+			<li class="project-carousel__item swiper-slide">
+				<div class="project-carousel__image-box">
+					<picture class="">
+						<source type="image/webp" srcset="images/projects/8.webp">
+						<img class="project-carousel__img" src="images/projects/8.jpg" alt="">
+					</picture>
+				</div>
 			</li>
 
-			<li class="services-page__item">
-				<a class="services-page__link" href="#">
-					<img class="services-page__img" src="images/services/2.svg" alt="">
-
-					<p class="services-page__text">Инженерные изыскания</p>
-				</a>
+			<li class="project-carousel__item swiper-slide">
+				<div class="project-carousel__image-box">
+					<picture class="">
+						<source type="image/webp" srcset="images/projects/5.webp">
+						<img class="project-carousel__img" src="images/projects/5.jpg" alt="">
+					</picture>
+				</div>
 			</li>
 
-			<li class="services-page__item">
-				<a class="services-page__link" href="#">
-					<img class="services-page__img" src="images/services/3.svg" alt="">
-
-					<p class="services-page__text">Конструктивные расчеты зданий и сооружений</p>
-				</a>
+			<li class="project-carousel__item swiper-slide">
+				<div class="project-carousel__image-box">
+					<picture class="">
+						<source type="image/webp" srcset="images/projects/9.webp">
+						<img class="project-carousel__img" src="images/projects/9.jpg" alt="">
+					</picture>
+				</div>
 			</li>
 
-			<li class="services-page__item">
-				<a class="services-page__link" href="#">
-					<img class="services-page__img" src="images/services/4.svg" alt="">
-
-					<p class="services-page__text">Сопровождение проектной
-						документации</p>
-				</a>
+			<li class="project-carousel__item swiper-slide">
+				<div class="project-carousel__image-box">
+					<picture class="">
+						<source type="image/webp" srcset="images/projects/3.webp">
+						<img class="project-carousel__img" src="images/projects/3.jpg" alt="">
+					</picture>
+				</div>
 			</li>
 
-			<li class="services-page__item">
-				<a class="services-page__link" href="#">
-					<img class="services-page__img" src="images/services/5.svg" alt="">
-
-					<p class="services-page__text">Обследование для оценки технического состояния зданий и сооружений</p>
-				</a>
-			</li>
-
-			<li class="services-page__item">
-				<a class="services-page__link" href="#">
-					<img class="services-page__img" src="images/services/6.svg" alt="">
-
-					<p class="services-page__text">Получение исходно-разрешительной документации</p>
-				</a>
-			</li>
-
-			<li class="services-page__item">
-				<a class="services-page__link" href="#">
-					<img class="services-page__img" src="images/services/7.svg" alt="">
-
-					<p class="services-page__text">Разработка полного перечня разделов проектной и рабочей документации</p>
-				</a>
-			</li>
-
-			<li class="services-page__item">
-				<a class="services-page__link" href="#">
-					<img class="services-page__img" src="images/services/8.svg" alt="">
-
-					<p class="services-page__text">Оказание содействия при вводе объекта в эксплуатацию</p>
-				</a>
+			<li class="project-carousel__item swiper-slide">
+				<div class="project-carousel__image-box">
+					<picture class="">
+						<source type="image/webp" srcset="images/projects/1.webp">
+						<img class="project-carousel__img" src="images/projects/1.jpg" alt="">
+					</picture>
+				</div>
 			</li>
 		</ul>
+	</div>
+
+	<button class="project-carousel__btn project-carousel__btn--next btn btn--right" type="button">
+		<span class="sr-only">Следующий слайд</span>
+	</button>
+</div>
 	</div>
 </section>
 			</main>

@@ -434,6 +434,13 @@ a {
   transition: color 0.3s;
 }
 
+.gsap-marker-end,
+.gsap-marker-start,
+.gsap-marker-scroller-end,
+.gsap-marker-scroller-start {
+  opacity: 0;
+}
+
 .link {
   display: flex;
   align-items: center;

@@ -1668,6 +1668,7 @@ a {
 
 .inner-service .project-carousel__body {
   margin-bottom: 122px;
+  margin-top: -50px;
 }
 
 .inner-service .project-carousel__image-box {
@@ -1949,7 +1950,7 @@ a {
   }
 
   .main-hero {
-    margin-bottom: calc(85px + -21 * ((100vw - 320px) / 1600));
+    margin-bottom: calc(70px + -6 * ((100vw - 320px) / 1600));
   }
 
   .main-hero__descr {
@@ -1973,7 +1974,7 @@ a {
   }
 
   .services__list {
-    row-gap: calc(22px + 44 * ((100vw - 320px) / 1600));
+    row-gap: calc(24px + 42 * ((100vw - 320px) / 1600));
   }
 
   .services__list {
@@ -2238,7 +2239,7 @@ a {
   }
 
   .inner-service__body p:not(:last-child) {
-    margin-bottom: calc(35px + 27 * ((100vw - 320px) / 1600));
+    margin-bottom: calc(28px + 34 * ((100vw - 320px) / 1600));
   }
 
   .inner-service__body h1,

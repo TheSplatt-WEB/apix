@@ -2656,7 +2656,7 @@ a {
   }
 
   .projects__item:not(:last-child) {
-    padding-right: 0;
+    padding-right: 6px;
   }
 
   .marquee3k:not(:last-child) {

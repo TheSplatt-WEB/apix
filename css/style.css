@@ -1149,6 +1149,18 @@ a {
   height: 100%;
 }
 
+.map::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  width: 100%;
+  height: 170px;
+  background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
+}
+
 .about-hero {
   padding-top: 159px;
   margin-bottom: 225px;
@@ -2818,6 +2830,10 @@ a {
     margin-left: -20px;
     margin-bottom: 31px;
     order: 3;
+  }
+
+  .map::before {
+    display: none;
   }
 
   .about-hero__container {

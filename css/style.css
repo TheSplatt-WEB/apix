@@ -1833,6 +1833,8 @@ a {
 }
 
 .project-hero {
+  display: flex;
+  align-items: center;
   padding-left: 85px;
 }
 
@@ -2671,7 +2673,7 @@ a {
   }
 
   .image-box__img {
-    width: calc(100% - 40px);
+    width: calc(100% - 20px);
     left: 20px;
   }
 
@@ -3284,6 +3286,11 @@ a {
 
   .project-hero {
     margin-bottom: 48px;
+    padding-left: 0;
+  }
+
+  .project-hero__title {
+    padding-left: 0;
   }
 
   .project-hero__descr {
@@ -3293,10 +3300,11 @@ a {
   .image-box {
     padding-bottom: 55.2%;
     margin-bottom: 98px;
+    flex-basis: 100%;
   }
 
   .image-box__img {
-    width: calc(100% - 40px);
+    width: calc(100% - 20px);
     left: 20px;
   }
 

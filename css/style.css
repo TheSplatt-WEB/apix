@@ -1626,6 +1626,7 @@ a {
 
 .inner-service__icon {
   height: 70px;
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(2deg) brightness(102%) contrast(103%);
 }
 
 .inner-service__body {
@@ -1920,7 +1921,6 @@ a {
   font-size: 80px;
   margin-bottom: 137px;
   line-height: 1;
-  padding-left: 35px;
 }
 
 .project-hero__descr {
@@ -2007,10 +2007,6 @@ a {
   padding-right: 134%;
   position: relative;
   margin-left: 50px;
-}
-
-.project-images__item:not(:last-child) {
-  margin-right: 50px;
 }
 
 .project-images__item:nth-child(3n-1) {
@@ -3318,10 +3314,6 @@ a {
     padding-left: 0;
   }
 
-  .project-hero__title {
-    padding-left: 0;
-  }
-
   .project-hero__descr {
     text-transform: uppercase;
   }
@@ -3355,7 +3347,6 @@ a {
   }
 
   .project-images__item:not(:last-child) {
-    margin-right: 0;
     margin-bottom: 20px;
   }
 

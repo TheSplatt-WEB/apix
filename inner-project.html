@@ -13,7 +13,7 @@
 
 	<title>document</title>
 
-	<link rel="stylesheet" href="css/style.min.css?_v=20221007185357">
+	<link rel="stylesheet" href="css/style.min.css?_v=20221008230455">
 </head>
 
 <body>
@@ -80,126 +80,134 @@
 				<span class="plug"></span>
 
 				<section class="inner-project">
-	<div class="inner-project__body">
+	<!-- <div class="inner-project__container container"> -->
+	<div class="inner-project__body" data-scroll-container>
 
-		<div class="inner-project__item project-hero horizontal-trigger">
-			<div class="inner-project__container container">
-				<div class="project-hero__text">
-					<h1 class="project-hero__title">Многоквартирный жилой дом с подземной автостоянкой</h1>
+		<div class="inner-project__item project-hero" data-scroll-section>
+			<div class="project-hero__text">
+				<h1 class="project-hero__title">Многоквартирный жилой дом с подземной автостоянкой</h1>
 
-					<p class="project-hero__descr">Краснофлотский район ул. Стрельникова г. Хабаровск</p>
-				</div>
+				<p class="project-hero__descr">Краснофлотский район ул. Стрельникова г. Хабаровск</p>
 			</div>
 		</div>
 
-		<div class="inner-project__item image-box horizontal-trigger">
-			<picture class="">
-				<source type="image/webp" srcset="images/projects/10.webp">
+		<div class="inner-project__item image-box" data-scroll-section>
+			<picture>
+				<!-- <source type="image/webp" srcset="images/projects/10.webp"> -->
 				<img class="image-box__img" src="images/projects/10.jpg" alt="">
 			</picture>
 		</div>
 
-		<div class="inner-project__item project-text horizontal-trigger">
-			<h2 class="project-text__title title">Жилой дом</h2>
+		<div class="inner-project__item project-text" data-scroll-section>
+			<div class="project-text__wrapper" data-scroll data-scroll-class="scroll-class" data-scroll-offset="30%">
+				<h2 class="project-text__title title">Жилой дом</h2>
 
-			<div class="project-text__text">
-				<ul class="project-text__list">
-					<li class="project-text__item">
-						<span class="project-text__num">7569</span>
+				<div class="project-text__text">
+					<ul class="project-text__list">
+						<li class="project-text__item">
+							<span class="project-text__num">7569</span>
 
-						<p class="project-text__descr">Площадь земельного участка, кв.м.</p>
-					</li>
+							<p class="project-text__descr">Площадь земельного участка, кв.м.</p>
+						</li>
 
-					<li class="project-text__item">
-						<span class="project-text__num">16</span>
+						<li class="project-text__item">
+							<span class="project-text__num">16</span>
 
-						<p class="project-text__descr">Количество этажей, эт.</p>
-					</li>
+							<p class="project-text__descr">Количество этажей, эт.</p>
+						</li>
 
-					<li class="project-text__item">
-						<span class="project-text__num">14784,19</span>
+						<li class="project-text__item">
+							<span class="project-text__num">14784,19</span>
 
-						<p class="project-text__descr">Общая площадь, кв.м.</p>
-					</li>
+							<p class="project-text__descr">Общая площадь, кв.м.</p>
+						</li>
 
-					<li class="project-text__item">
-						<span class="project-text__num">215</span>
+						<li class="project-text__item">
+							<span class="project-text__num">215</span>
 
-						<p class="project-text__descr">Количество квартир, кв.</p>
-					</li>
+							<p class="project-text__descr">Количество квартир, кв.</p>
+						</li>
 
-					<li class="project-text__item">
-						<span class="project-text__num">10034,28</span>
+						<li class="project-text__item">
+							<span class="project-text__num">10034,28</span>
 
-						<p class="project-text__descr">Общая площадь квартир, кв.м.</p>
-					</li>
+							<p class="project-text__descr">Общая площадь квартир, кв.м.</p>
+						</li>
 
-					<li class="project-text__item">
-						<span class="project-text__num">67850,7</span>
+						<li class="project-text__item">
+							<span class="project-text__num">67850,7</span>
 
-						<p class="project-text__descr">Строительный объем, куб.м.</p>
-					</li>
-				</ul>
+							<p class="project-text__descr">Строительный объем, куб.м.</p>
+						</li>
+					</ul>
+				</div>
 			</div>
 		</div>
 
-		<ul class="inner-project__item project-images">
-			<li class="project-images__item">
-				<picture>
-					<source type="image/webp" srcset="images/projects/8.webp">
-					<img class="project-images__img horizontal-trigger" src="images/projects/8.jpg" alt="">
-				</picture>
-			</li>
+		<div class="inner-project__item project-images" data-scroll-section>
+			<ul class="project-images__list">
+				<li class="project-images__item" data-scroll data-scroll-class="scroll-class" data-scroll-offset="30%">
+					<picture>
+						<!-- <source type="image/webp" srcset="images/projects/8.webp"> -->
+						<img class="project-images__img" src="images/projects/8.jpg" alt="">
+					</picture>
+				</li>
 
-			<li class="project-images__item">
-				<picture>
-					<source type="image/webp" srcset="images/projects/11.webp">
-					<img class="project-images__img horizontal-trigger" src="images/projects/11.jpg" alt="">
-				</picture>
-			</li>
+				<li class="project-images__item" data-scroll data-scroll-class="scroll-class" data-scroll-offset="30%">
+					<picture>
+						<!-- <source type="image/webp" srcset="images/projects/11.webp"> -->
+						<img class="project-images__img" src="images/projects/11.jpg" alt="">
+					</picture>
+				</li>
 
-			<li class="project-images__item">
-				<picture>
-					<source type="image/webp" srcset="images/projects/12.webp">
-					<img class="project-images__img horizontal-trigger" src="images/projects/12.jpg" alt="">
-				</picture>
-			</li>
+				<li class="project-images__item" data-scroll data-scroll-class="scroll-class" data-scroll-offset="30%">
+					<picture>
+						<!-- <source type="image/webp" srcset="images/projects/12.webp"> -->
+						<img class="project-images__img" src="images/projects/12.jpg" alt="">
+					</picture>
+				</li>
 
-			<li class="project-images__item">
-				<picture>
-					<source type="image/webp" srcset="images/projects/13.webp">
-					<img class="project-images__img horizontal-trigger" src="images/projects/13.jpg" alt="">
-				</picture>
-			</li>
-		</ul>
+				<li class="project-images__item" data-scroll data-scroll-class="scroll-class" data-scroll-offset="30%">
+					<picture>
+						<!-- <source type="image/webp" srcset="images/projects/13.webp"> -->
+						<img class="project-images__img" src="images/projects/13.jpg" alt="">
+					</picture>
+				</li>
+			</ul>
+		</div>
 
-		<div class="inner-project__item project-text horizontal-trigger">
-			<h2 class="project-text__title title">Подземная автостоянка</h2>
+		<div class="inner-project__item project-text" data-scroll-section>
 
-			<div class="project-text__list">
-				<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga velit ipsa repellat nisi?</p>
-				<p>Culpa temporibus asperiores nostrum magnam eveniet debitis?</p>
-				<p>Lorem ipsum dolor sit amet.</p>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-				<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore voluptatem nostrum aperiam.</p>
-				<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint, error.</p>
+			<div class="project-text__wrapper" data-scroll data-scroll-class="scroll-class">
+				<h2 class="project-text__title title">Подземная автостоянка</h2>
+
+				<div class="project-text__list">
+					<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga velit ipsa repellat nisi?</p>
+					<p>Culpa temporibus asperiores nostrum magnam eveniet debitis?</p>
+					<p>Lorem ipsum dolor sit amet.</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+					<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore voluptatem nostrum aperiam.</p>
+					<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint, error.</p>
+				</div>
 			</div>
 		</div>
 
-		<ul class="inner-project__links project-links">
-			<li class="project-links__item">
-				<a class="project-links__link link link--reverse" href="#">назад в проекты</a>
-			</li>
-
-			<li class="project-links__item">
-				<a class="project-links__link link" href="#">другой кейс</a>
-			</li>
-		</ul>
-
-		<span class="inner-project__progress-bar">
-			<span class="inner-project__progress"></span>
-		</span>
+		<!-- </div> -->
 	</div>
+
+	<span class="inner-project__progress-bar">
+		<span class="inner-project__progress" data-scroll-sticky data-scroll-target=".inner-project__body"></span>
+	</span>
+
+	<ul class="inner-project__links project-links">
+		<li class="project-links__item">
+			<a class="project-links__link link link--reverse" href="#">назад в проекты</a>
+		</li>
+
+		<li class="project-links__item">
+			<a class="project-links__link link" href="#">другой кейс</a>
+		</li>
+	</ul>
 </section>
 			</main>
 
@@ -328,7 +336,7 @@
 </div>
 	</div>
 
-	<script src="js/script.min.js?_v=20221007185357" type="module"></script>
+	<script src="js/script.min.js?_v=20221008230455" type="module"></script>
 </body>
 
 </html>
